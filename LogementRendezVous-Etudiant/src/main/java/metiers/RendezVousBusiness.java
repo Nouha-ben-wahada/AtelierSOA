@@ -9,7 +9,7 @@ import java.util.List;
 
 public class RendezVousBusiness {
     public static List<RendezVous> listeRendezVous;
-    LogementBusiness logementMetier=new LogementBusiness();
+    static LogementBusiness logementMetier=new LogementBusiness();
     public RendezVousBusiness() {
       listeRendezVous = new ArrayList<>();
     }
